@@ -1,0 +1,13 @@
+/my-app
+├── /config        # Configuration files (DB, environment variables)
+├── /controllers   # Request handlers (Business logic)
+├── /models        # Mongoose models or ORM definitions
+├── /routes        # Route definitions (Express routes)
+├── /middlewares   # Custom middlewares (authentication, validation, etc.)
+├── /services      # Business logic, external API calls, etc.
+├── /utils         # Helper functions (Utility modules)
+├── /tests         # Unit and integration tests
+├── /public        # Static files (images, CSS, etc.)
+├── /views         # Template files (for server-side rendering, if applicable)
+├── app.js         # Express.js app setup (middleware, routes, etc.)
+└── server.js      # Server entry point (starts the server)
